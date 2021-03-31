@@ -11,6 +11,6 @@ public class Launcher {
     public static void main(String[] args) throws Exception {
         //TODO: переписать данный код
         // Выведется в консоль фраза Привет, мир!
-        System.out.println("Приветствую слушателей из набора 03.2021!");
+        System.out.println("Привет, мир");
     }
 }
