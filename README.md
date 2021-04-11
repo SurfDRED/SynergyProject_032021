@@ -6,3 +6,5 @@
 [Занятие 2. Место Java среди других ЯП.](https://github.com/SurfDRED/SynergyProject_032021/tree/main/src/java/ru/synergyitacademy/lesson2)
 
 [Занятие 3. Базовые конструкции Java.](https://github.com/SurfDRED/SynergyProject_032021/tree/main/src/java/ru/synergyitacademy/lesson3)
+
+[Занятие 4. Операторы языка Java. Массивы.](https://github.com/SurfDRED/SynergyProject_032021/tree/main/src/java/ru/synergyitacademy/lesson4)
