@@ -87,6 +87,24 @@ public class Solution {
         //6. Возврат единичной матрицы (через статичное поле и метод)
         System.out.println("Возврат единичной матрицы (через статичное поле и метод)");
         matrixA.MatrixPrint(Matrix.getMatrixUnit());
+        System.out.println("--------------------------------------------------------");
+        //7. Вычисление определителя 2х2 или 3х3
+        System.out.println("Вычисление определителя матрицы А - 2х2");
+        System.out.println(matrixA.MatrixDeterminantA(matrixA.getUserMatrix()));
+        System.out.println("Вычисление определителя матрицы B - 2х2");
+        System.out.println(matrixA.MatrixDeterminantA(userMatrixA));
+        if (matrixB.getN() == 3 & matrixB.getM() == 3) {
+            System.out.println("Вычисление определителя матрицы А - 3х3");
+            System.out.println(matrixB.MatrixDeterminantB(matrixB.getUserMatrix()));
+        } else {
+            System.out.println("Размер матрицы не 3 х 3");
+        }
+        if (userMatrixB.length == 3 & userMatrixB[0].length == 3) {
+            System.out.println("Вычисление определителя матрицы B - 3х3");
+            System.out.println(matrixB.MatrixDeterminantB(userMatrixB));
+        } else {
+            System.out.println("Размер матрицы не 3 х 3");
+        }
     }
 
     //Рандомное заполнение матрицы от 0 до 10

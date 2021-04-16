@@ -17,11 +17,11 @@ public class Matrix {
     //двумерный массив, хранящий элементы матрицы
     private int[][] userMatrix;
 
-    //8. метод возврата размерностей матриц (геттеры размерности)
+    //9. метод возврата размерностей матриц (геттеры размерности)
     public int getM() {
         return m;
     }
-    //8. метод возврата размерностей матриц (геттеры размерности)
+    //9. метод возврата размерностей матриц (геттеры размерности)
     public int getN() {
         return n;
     }
@@ -121,7 +121,26 @@ public class Matrix {
         return m3;
     }
 
-    //7. Печать элементов матриц в консоль (форматированный вывод)
+    //Вычисление определителя 2x2
+    public int MatrixDeterminantA(int[][] matrixDeterminant) {
+        int result;
+        result = matrixDeterminant[0][0] * matrixDeterminant[1][1] - matrixDeterminant[0][1] * matrixDeterminant[1][0];
+        return result;
+    }
+    //Вычисление определителя 3x3
+    public int MatrixDeterminantB(int[][] matrixDeterminant) {
+        int result;
+
+        result = matrixDeterminant[0][0] * matrixDeterminant[1][1] * matrixDeterminant[2][2] +
+                matrixDeterminant[0][1] * matrixDeterminant[1][2] * matrixDeterminant[2][0] +
+                matrixDeterminant[0][2] * matrixDeterminant[1][0] * matrixDeterminant[2][1] -
+                (matrixDeterminant[2][0] * matrixDeterminant[1][1] * matrixDeterminant[0][2] +
+                        matrixDeterminant[2][1] * matrixDeterminant[1][2] * matrixDeterminant[0][0] +
+                        matrixDeterminant[2][2] * matrixDeterminant[1][0] * matrixDeterminant[0][1]);
+
+        return result;
+    }
+    //8. Печать элементов матриц в консоль (форматированный вывод)
     public void MatrixPrint(int[][] matrixPrint) {
         for (int i = 0; i < matrixPrint.length; i++) {
             for (int j = 0; j < matrixPrint[i].length; j++) {
