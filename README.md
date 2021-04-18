@@ -10,3 +10,5 @@
 [Занятие 4. Операторы языка Java. Массивы.](https://github.com/SurfDRED/SynergyProject_032021/tree/main/src/java/ru/synergyitacademy/lesson4)
 
 [Занятие 5. Объектно-ориентированное программирование на Java.](https://github.com/SurfDRED/SynergyProject_032021/tree/main/src/java/ru/synergyitacademy/lesson5)
+
+[Занятие 6. Объектно-ориентированное программирование: инкапсуляция, наследование и полиморфизм.](https://github.com/SurfDRED/SynergyProject_032021/tree/main/src/java/ru/synergyitacademy/lesson6)
