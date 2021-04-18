@@ -1,0 +1,19 @@
+package ru.synergyitacademy.lesson6.pet;
+
+public class Pig extends PetAnimal {
+    private String voice = "Хрюкать";
+
+    public Pig(String type) {
+        super(type);
+    }
+
+    @Override
+    public void voice() {
+        System.out.println(toString());
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + " она умеет " + voice;
+    }
+}
