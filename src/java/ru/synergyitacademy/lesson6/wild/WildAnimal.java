@@ -1,8 +1,8 @@
 package ru.synergyitacademy.lesson6.wild;
 
-import ru.synergyitacademy.lesson6.Animals;
+import ru.synergyitacademy.lesson6.Animal;
 
-public class WildAnimal extends Animals {
+public class WildAnimal extends Animal {
     private String type = "Дикое животное";
 
     public WildAnimal(String animal) {

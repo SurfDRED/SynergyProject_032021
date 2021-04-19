@@ -1,9 +1,9 @@
 package ru.synergyitacademy.lesson6;
 
-public class Animals {
+public class Animal {
     private String animal;
 
-    public Animals(String animal) {
+    public Animal(String animal) {
         this.animal = animal;
     }
 

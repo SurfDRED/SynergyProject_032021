@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Solution {
     public static void main(String[] args) {
-        List<Animals> animalsList = new ArrayList<>();
+        List<Animal> animalsList = new ArrayList<>();
         animalsList.add(new Cat("Кошка"));
         animalsList.add(new Dog("Сабака"));
         animalsList.add(new Cow("Корова"));
@@ -17,7 +17,7 @@ public class Solution {
         animalsList.add(new Tiger("Тигр"));
         animalsList.add(new Fox("Лиса"));
         animalsList.add(new Squirrel("Белка"));
-        for (Animals animals : animalsList) {
+        for (Animal animals : animalsList) {
             animals.voice();
         }
     }

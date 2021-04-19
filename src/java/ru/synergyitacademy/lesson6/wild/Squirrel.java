@@ -3,8 +3,8 @@ package ru.synergyitacademy.lesson6.wild;
 public class Squirrel extends WildAnimal {
     private String voice = "Цокать";
 
-    public Squirrel(String type) {
-        super(type);
+    public Squirrel(String animal) {
+        super(animal);
     }
 
     @Override

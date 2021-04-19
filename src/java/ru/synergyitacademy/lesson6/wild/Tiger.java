@@ -3,8 +3,8 @@ package ru.synergyitacademy.lesson6.wild;
 public class Tiger extends WildAnimal {
     private String voice = "Урчать";
 
-    public Tiger(String type) {
-        super(type);
+    public Tiger(String animal) {
+        super(animal);
     }
 
     @Override

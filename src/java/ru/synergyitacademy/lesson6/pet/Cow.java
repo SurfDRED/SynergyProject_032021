@@ -3,8 +3,8 @@ package ru.synergyitacademy.lesson6.pet;
 public class Cow extends PetAnimal {
     private String voice = "Мычать";
 
-    public Cow(String type) {
-        super(type);
+    public Cow(String animal) {
+        super(animal);
     }
 
     @Override

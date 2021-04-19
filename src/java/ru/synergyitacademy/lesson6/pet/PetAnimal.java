@@ -1,8 +1,8 @@
 package ru.synergyitacademy.lesson6.pet;
 
-import ru.synergyitacademy.lesson6.Animals;
+import ru.synergyitacademy.lesson6.Animal;
 
-public class PetAnimal extends Animals {
+public class PetAnimal extends Animal {
     private String type = "Домашнее животное";
 
     public PetAnimal(String animal) {
