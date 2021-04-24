@@ -14,3 +14,5 @@
 [Занятие 6. Объектно-ориентированное программирование: инкапсуляция, наследование и полиморфизм.](https://github.com/SurfDRED/SynergyProject_032021/tree/main/src/java/ru/synergyitacademy/lesson6)
 
 [Занятие 7. ООП: финальные, статические, вложенные и абстрактные классы.](https://github.com/SurfDRED/SynergyProject_032021/tree/main/src/java/ru/synergyitacademy/lesson7)
+
+[Занятие 8. Продолжаем изучать ООП: интерфейсы, перечисления.](https://github.com/SurfDRED/SynergyProject_032021/tree/main/src/java/ru/synergyitacademy/lesson8)
