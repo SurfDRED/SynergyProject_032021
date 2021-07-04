@@ -22,3 +22,5 @@
 [Занятие 1. Завершаем изучение ООП: клонирование объектов, вложенные классы и обобщения. Maven.](https://github.com/SurfDRED/SynergyProject_032021/blob/main/src/main/java/synergyitacademy/block2/lesson1)
 
 [Занятие 2. Знакомство с Maven. Классы-оболочки, работа со строками.](https://github.com/SurfDRED/SynergyProject_032021/blob/main/src/main/java/synergyitacademy/block2/lesson2/)
+
+[Занятие 4. Продвинутые возможности работы с ИС](https://github.com/SurfDRED/SynergyProject_032021/blob/main/src/main/java/synergyitacademy/block2/lesson4/)
