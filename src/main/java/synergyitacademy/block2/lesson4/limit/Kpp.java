@@ -1,4 +1,7 @@
-package synergyitacademy.block2.lesson4.Limit;
+package synergyitacademy.block2.lesson4.limit;
+
+import synergyitacademy.block2.lesson4.car.Car;
+import synergyitacademy.block2.lesson4.exception.LimitParamException;
 
 public class Kpp {
     //допустимый вес
@@ -24,5 +27,11 @@ public class Kpp {
 
     public double getHeight() {
         return height;
+    }
+
+    public void controlParameter(Car car) {
+        if (car.getWeight() > getWeight() || car.getHeight() > getHeight() || car.getWidth() > getWidth()) {
+            throw new LimitParamException(car.getCar() + " автомобиль " + car.getNumber() + " не может проехать через КПП.");
+        }
     }
 }
