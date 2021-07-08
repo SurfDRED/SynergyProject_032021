@@ -4,18 +4,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListEmployees {
-    public static List<Employees> getListEmployees() {
-        List<Employees> employeesList = new ArrayList<>();
-        employeesList.add(new Employees("Петров", 10));
-        employeesList.add(new Employees("Иванов", 9));
-        employeesList.add(new Employees("Сидоров", 11));
-        employeesList.add(new Employees("Ячменцев", 9));
-        employeesList.add(new Employees("Николаев", 12));
-        employeesList.add(new Employees("Веселов", 5));
-        employeesList.add(new Employees("Хоруженко", 9));
-        employeesList.add(new Employees("Григорьев", 3));
-        employeesList.add(new Employees("Бондаренко", 2));
-        employeesList.add(new Employees("Сабиров", 1));
+    public static List<Employee> getListEmployees() {
+        List<Employee> employeesList = new ArrayList<>();
+        employeesList.add(new Employee("Петров", 10));
+        employeesList.add(new Employee("Иванов", 9));
+        employeesList.add(new Employee("Сидоров", 11));
+        employeesList.add(new Employee("Ячменцев", 9));
+        employeesList.add(new Employee("Николаев", 12));
+        employeesList.add(new Employee("Веселов", 5));
+        employeesList.add(new Employee("Хоруженко", 9));
+        employeesList.add(new Employee("Григорьев", 3));
+        employeesList.add(new Employee("Бондаренко", 2));
+        employeesList.add(new Employee("Сабиров", 1));
         return employeesList;
     }
 }

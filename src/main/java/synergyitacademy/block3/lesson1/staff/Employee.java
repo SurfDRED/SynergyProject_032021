@@ -7,7 +7,7 @@ import lombok.ToString;
 @Getter //используем геттеры
 @AllArgsConstructor //консктруктор, использующий все поля класса
 @ToString //реализация метода toString()
-public class Employees {
-    String fullName;
-    int workAge;
+public class Employee {
+    private String fullName;
+    private  int workAge;
 }
