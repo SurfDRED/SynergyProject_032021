@@ -27,3 +27,5 @@
 ### Блок3:
 
 [Занятие 1. Коллекции Java](https://github.com/SurfDRED/SynergyProject_032021/blob/main/src/main/java/synergyitacademy/block3/lesson1/)
+
+[Занятие 2. Множества и очереди](https://github.com/SurfDRED/SynergyProject_032021/blob/main/src/main/java/synergyitacademy/block3/lesson2/)
