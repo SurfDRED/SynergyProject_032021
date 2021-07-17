@@ -21,8 +21,8 @@ public class MyThread extends Thread {
             logger.setLevel(resultLevel);
             logger.setNameThread(Thread.currentThread().getName());
             logger.setMsg(resultLevel);
-            logger.writeToConsole(logger.getDate(), logger.getLevel(), logger.getNameThread(), logger.getMsg());
-            logger.writeToFile(logger.getDate(), logger.getLevel(), logger.getNameThread(), logger.getMsg());
+            logger.writeToConsole();
+            logger.writeToFile();
             sleep();
         }
         System.out.println("Работа потока " + Thread.currentThread().getName() + " закончилась");

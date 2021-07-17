@@ -80,13 +80,13 @@ public class Logger {
         }
     }
 
-    public void writeToFile(Date date, String level, String nameThread, String msg) throws IOException {
+    public void writeToFile() throws IOException {
         String msgToFile = "Текущее время: " + getDate() + ", Статус: " + getLevel() +
                 " Поток №: " + Thread.currentThread().getName() + ", Сообщение: " + getMsg() + "\r\n";
         fos.write(msgToFile.getBytes(StandardCharsets.UTF_8));
     }
 
-    public void writeToConsole(Date date, String level, String nameThread, String msg) {
+    public void writeToConsole() {
         String msg2 = "Текущее время: " + getDate() + ", Статус: " + getLevel() +
                 " Поток №: " + Thread.currentThread().getName() + ", Сообщение: " + getMsg() + "\r\n";
         System.out.println(msg2);
