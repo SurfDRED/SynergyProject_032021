@@ -10,11 +10,9 @@ public class Solution {
             threads[i] = new MyThread();
             threads[i].start();
         }
-        try {
-            Thread.sleep(65000); // Главный поток ждет завершения работы нитей, чтобы прочитать данные из лога
-            Logger.printToConsole();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+        for (int i = 0; i < threads.length; i++) {
+            threads[i].join();
         }
+        Logger.printToConsole();
     }
 }

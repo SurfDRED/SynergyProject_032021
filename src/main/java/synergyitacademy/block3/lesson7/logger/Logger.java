@@ -1,11 +1,14 @@
 package synergyitacademy.block3.lesson7.logger;
 
+import lombok.Getter;
+
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.Date;
 import java.util.Map;
 import java.util.TreeMap;
 
+@Getter //используем геттеры
 public class Logger {
     private final static Map<Integer, String> mapLevel = new TreeMap<>();
     private final static Map<Integer, String> mapMsg = new TreeMap<>();
@@ -38,45 +41,24 @@ public class Logger {
     private String nameThread;
     private String msg;
 
-    public Date getDate() {
-        return date;
-    }
 
     public void setDate(Date date) {
         this.date = date;
     }
 
-    public String getLevel() {
-        return level;
-    }
-
     public void setLevel(int log) {
-        for (Map.Entry<Integer, String> entry : mapLevel.entrySet()) {
-            if (entry.getKey() == log) {
-                this.level = entry.getValue();
-                return;
-            }
+        if (mapLevel.containsKey(log)) {
+            this.level = mapLevel.get(log);
         }
-    }
-
-    public String getNameThread() {
-        return nameThread;
     }
 
     public void setNameThread(String nameThread) {
         this.nameThread = nameThread;
     }
 
-    public String getMsg() {
-        return msg;
-    }
-
     public void setMsg(int numMsg) {
-        for (Map.Entry<Integer, String> entry : mapMsg.entrySet()) {
-            if (entry.getKey() == numMsg) {
-                this.msg = entry.getValue();
-                return;
-            }
+        if (mapMsg.containsKey(numMsg)) {
+            this.msg = mapMsg.get(numMsg);
         }
     }
 
