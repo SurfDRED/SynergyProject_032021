@@ -33,3 +33,6 @@
 [Занятие 5. Терминальные операции Stream API. Optional](https://github.com/SurfDRED/SynergyProject_032021/blob/main/src/main/java/synergyitacademy/block3/lesson5/)
 
 [Занятие 7. Блоки синхронизации. Executors API](https://github.com/SurfDRED/SynergyProject_032021/blob/main/src/main/java/synergyitacademy/block3/lesson7/)
+### Блок4:
+
+[Занятие 1. Файлы](https://github.com/SurfDRED/SynergyProject_032021/blob/main/src/main/java/synergyitacademy/block4/lesson1/)
