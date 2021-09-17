@@ -43,3 +43,5 @@
 
 [Занятие 4. Взаимодействие с базами данных](https://github.com/SurfDRED/SynergyProject_032021/blob/main/docker-compose.yml)
 
+[Занятие 5. Взаимодействие с базами данных](https://github.com/SurfDRED/SynergyProject_032021/blob/main/src/main/java/synergyitacademy/block4/lesson5/)
+
