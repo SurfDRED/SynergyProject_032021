@@ -45,3 +45,4 @@
 
 [Занятие 5. Взаимодействие с базами данных](https://github.com/SurfDRED/SynergyProject_032021/blob/main/src/main/java/synergyitacademy/block4/lesson5/)
 
+[Занятие 8. Введение в Spring](https://github.com/SurfDRED/SynergyProject_032021/blob/main/src/main/java/synergyitacademy/block4/lesson8/)
