@@ -1,7 +1,5 @@
 package synergyitacademy.block4.lesson8;
 
-import lombok.Getter;
-import lombok.Setter;
 import org.springframework.stereotype.Component;
 
 import java.sql.*;

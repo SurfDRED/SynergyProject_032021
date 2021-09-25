@@ -2,7 +2,6 @@ package synergyitacademy.block4.lesson8;
 
 import org.jetbrains.annotations.NotNull;
 import org.springframework.stereotype.Component;
-import synergyitacademy.block4.lesson5.Solution;
 
 import java.sql.*;
 
